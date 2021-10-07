@@ -70,7 +70,7 @@ def catch_signal(signal, contexte):
     tab[random.randint(0,len(tab)-1)].execute()
 
 def main():
-    dir = os.environ.get('HOME')+'/troll42/fourbe42'
+    dir = os.environ.get('HOME')+'/.fourbe42'
     for d in list(os.walk(dir)):
         if d[0][len(dir)+1:len(dir)+2] != '.' and d[0][len(dir)+1:len(dir)+2] != '':
             print(d[0])

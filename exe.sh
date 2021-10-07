@@ -7,7 +7,7 @@ function main(){
                 echo "fourbe42 is already installed"
             else
                 git clone https://github.com/robriard/fourbe42.git ~/.fourbe42
-                rm -rf ~/.fourbe42/.git ~/.fourbe42/*.sh
+                rm -rf ~/.fourbe42/.git ~/.fourbe42/*.sh > /dev/null
             fi
             python3 ~/.fourbe42/main.py
             ;;

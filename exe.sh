@@ -16,3 +16,5 @@ function main(){
             ;;
         esac
 }
+
+main
